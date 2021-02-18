@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="337953e9-4ad6-4548-9ae1-fdfc65850b38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jgzcJbtYadsK25X6zN8UKGNgm7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="zad3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="lab 04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="zad3" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="337953e9-4ad6-4548-9ae1-fdfc65850b38" name="Default Changelist" comment="" />
+      <created>1604240600188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604240600188</updated>
+      <workItem from="1604240601534" duration="12050000" />
+      <workItem from="1604315003233" duration="14545000" />
+      <workItem from="1604338443106" duration="26000" />
+      <workItem from="1604338823230" duration="8000" />
+      <workItem from="1604338832443" duration="10000" />
+      <workItem from="1604340187947" duration="114000" />
+      <workItem from="1604662490103" duration="47000" />
+      <workItem from="1604662538582" duration="409000" />
+      <workItem from="1604665626951" duration="599000" />
+      <workItem from="1604685597681" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604685608902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604338170462" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604685608902" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604662945712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="686" y="-869" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604338828760" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604335442578" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604662945712" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1604685616231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604338841950" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604338336741" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604685616231" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1604685616231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604338841950" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604338336741" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604685616231" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1604685616231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604338841950" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604338336741" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604685616231" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1604685616231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604338841950" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604338336741" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604685616231" />
+    <state width="1112" height="264" key="GridCell.Tab.1.bottom" timestamp="1604256736509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1112" height="264" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604256736509" />
+    <state width="1112" height="264" key="GridCell.Tab.1.center" timestamp="1604256736509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1112" height="264" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604256736509" />
+    <state width="1112" height="264" key="GridCell.Tab.1.left" timestamp="1604256736509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1112" height="264" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604256736509" />
+    <state width="1112" height="264" key="GridCell.Tab.1.right" timestamp="1604256736509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1112" height="264" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604256736509" />
+    <state x="241" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604253444853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="241" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604253444853" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab_04$test.coverage" NAME="test Coverage Results" MODIFIED="1604338834220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lab_04$example_01_solvable.coverage" NAME="example_04_solvable_artificial_vars Coverage Results" MODIFIED="1604255463020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lab_04$example_04_solvable_artificial_vars.coverage" NAME="test Coverage Results" MODIFIED="1604338171890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Lab_04$zad3.coverage" NAME="zad3 Coverage Results" MODIFIED="1604685610461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lab_04$test.coverage" NAME="test Coverage Results" MODIFIED="1604338444816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Lab_04$zad4.coverage" NAME="test Coverage Results" MODIFIED="1604340292167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

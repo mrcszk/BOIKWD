@@ -1,0 +1,226 @@
+\documentclass{article}[UTF8]
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{multirow}
+%\usepackage{theorem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MACRO
+
+\renewcommand{\S}{\mathcal{S}}
+\newcommand{\pay}{\mathit{pay}}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\s}{\mathbf{s}}
+\renewcommand{\b}{\mathbf{b}}
+\renewcommand{\r}{\mathbf{r}}
+\newcommand{\w}{\mathbf{w}}
+\renewcommand{\P}{\mathcal{P}}
+
+\newcommand{\G}{\mathcal{G}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\tuple}[1]{\langle#1\rangle}
+\newcommand{\todo}[1]{\noindent{{\small\bf$<$\textsf{#1}$>$}}}
+
+\renewcommand{\sp}{\mathsf{sp}}
+\newcommand{\mcs}{\mathsf{cs}}
+\newcommand{\ssp}{\mathsf{ssp}}
+\newcommand{\SC}{\mathsf{SC}}
+\newcommand{\NE}{\mathsf{NE}}
+\newcommand{\SE}{\mathsf{SE}}
+
+%ALGORITMO
+\newcounter{stepcount}
+\newcommand{\step}{%
+        \stepcounter{stepcount}%
+        \thestepcount}
+\newcommand{\resetstep}{%
+        \setcounter{stepcount}{0}
+}
+
+\newtheoremstyle{break}
+  {\topsep}{\topsep}%
+  {\itshape}{}%
+  {\bfseries}{}%
+  {\newline}{}%
+\theoremstyle{definition}
+\newtheorem{zad}{Zadanie}
+
+
+%\newtheorem{example}{Example}[section]
+%\newtheorem{definition}{Definition}[section]
+%\newtheorem{lemma}{Lemma}[section]
+%\newtheorem{theorem}{Theorem}[section]
+
+%\newenvironment{proof}{\vspace{-1mm}{\em Proof.}}{\vspace{2mm}}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+\title{Badania operacyjne i systemy wspomagania decyzji
+\\ \Large 12 AHP - metoda EVM}
+\date{}
+
+\maketitle
+
+
+\begin{zad}
+
+Rodzina Kowalskich postanowiła zakupić dom. Po dłuższych poszukiwaniach znaleźli trzy oferty, które ich zainteresowały. Nie mogąc się zdecydować jednoznacznie na którąkolwiek z nich, postanowili porównać oferty parami w następujących kategoriach:
+1 - cena,
+2 - rozmiar domu,
+3 - dostęp do komunikacji miejskiej,
+4 - dzielnica,
+5 - wiek domu,
+6 - rozmiar ogródka,
+7 - wyposażenie,
+8 - stan techniczny.
+Efekty tych porównań, opisane przy użyciu fundamentalnej skali różnic, są zapisane w poniższych macierzach:
+
+
+$$C_1=\begin{pmatrix}
+1 & \frac{1}{7} & \frac{1}{5} \\
+7&1&3 \\
+5&\frac{1}{3}&1
+\end{pmatrix}, \
+C_2=\begin{pmatrix}
+1&5&9\\
+\frac{1}{5}&1&4\\
+\frac{1}{9}&\frac{1}{4}&1
+\end{pmatrix}, \
+C_3=\begin{pmatrix}
+1&4&\frac{1}{5}\\
+\frac{1}{4}&1&\frac{1}{9}\\
+5&9&1
+\end{pmatrix},
+$$
+$$
+C_4=\begin{pmatrix}
+1&9&4\\
+\frac{1}{9}&1&\frac{1}{4}\\
+\frac{1}{4}&4&1
+\end{pmatrix}, \
+C_5=\begin{pmatrix}
+1&1&1\\
+1&1&1\\
+1&1&1
+\end{pmatrix}, \
+C_6=\begin{pmatrix}
+1&6&4\\
+\frac{1}{6}&1&\frac{1}{3}\\
+\frac{1}{4}&3&1
+\end{pmatrix},
+$$
+$$C_7=\begin{pmatrix}
+1&9&6\\
+\frac{1}{9}&1&\frac{1}{3}\\
+\frac{1}{6}&3&1
+\end{pmatrix}, \
+C_8=\begin{pmatrix}
+1&\frac{1}{2}&\frac{1}{2}\\
+2&1&1\\
+2&1&1
+\end{pmatrix}.
+$$
+
+Porównanie na ile poszczególne kategorie są względem siebie dla nich ważne zostało opisane w poniższej macierzy:
+
+$$C_{parametry}=\begin{pmatrix}
+1&4&7&5&8&6&6&2\\
+\frac{1}{4}&1&5&3&7&6&6&\frac{1}{3}\\
+\frac{1}{7}&\frac{1}{5}&1&\frac{1}{3}&5&3&3&\frac{1}{5}\\
+\frac{1}{5}&\frac{1}{3}&3&1&6&3&4&\frac{1}{2}\\
+\frac{1}{8}&\frac{1}{7}&\frac{1}{5}&\frac{1}{6}&1&\frac{1}{3}&\frac{1}{4}&\frac{1}{7}\\
+\frac{1}{6}&\frac{1}{6}&\frac{1}{3}&\frac{1}{3}&3&1&\frac{1}{2}&\frac{1}{5}\\
+\frac{1}{6}&\frac{1}{6}&\frac{1}{3}&\frac{1}{4}&4&2&1&\frac{1}{5}\\
+\frac{1}{2}&3&5&2&7&5&5&1
+\end{pmatrix}
+$$
+\end{zad}
+
+Na podstawie powyższych informacji wykorzystaj metodę AHP do stworzenia rankingu domów. 
+\newpage
+
+\begin{zad}
+Doktor A. wybiera się na konferencję do Wrocławia. Przez organizatorów konferencji proponowane są następujące hotele: \\
+
+\textbf{Hotel TUR:}\\
+1.cena: 210 zł/noc\\
+2.wyżywienie: 20 zł \\
+3.odległość od konferencji: 20 minut pieszo; 3 przystanki\\
+4.parking przy hotelu: nie
+
+\textbf{Hotel KUR:}\\
+1.cena: 150 zł/noc\\
+2.wyżywienie: 20 zł\\
+3.odległość od konferencji: 30 minut pieszo; 7 przystanków, 1 przesiadka \\
+4.parking przy hotelu: tak
+
+\textbf{Hotel MUR:}\\
+1.cena: 230 zł/noc\\
+2.wyżywienie:30 zł\\
+3.odległość od konferencji: 12 minut pieszo; 2 przystanki\\
+4.parking przy hotelu: nie
+
+\textbf{Hotel BÓR:}\\
+1.cena: 250 zł/noc\\
+2.wyżywienie: 25zł\\
+3.odległość od konferencji: 8 minut pieszo; 1 przystanek\\
+4.parking przy hotelu: tak
+
+Zapytany o wpływ poszczególnych kategorii na jego potencjalny wybór podał następującą macierz porównań:
+
+$$C=\begin{pmatrix}
+1&5&3&4\\
+\frac{1}{5}&1&4&1\\
+\frac{1}{3}&\frac{1}{4}&1&2\\
+\frac{1}{4}&1&\frac{1}{2}&1
+\end{pmatrix}.
+$$
+
+
+Na podstawie powyższych informacji zaproponuj macierze porównań kategorii w oparciu o fundamentalną skalę różnic i wykorzystaj metodę AHP do stworzenia rankingu hoteli.
+
+\end{zad}
+
+\newpage
+
+\begin{zad}
+
+W poniższym zadaniu samodzielnie wykonaj wszystkie kroki potrzebne to stworzenia rankingu samochodów metodą AHP korzystając z proponowanego podziału na kryteria i podkryteria.
+
+Samochód 1:\\
+Cena samochodu: 68 200zł\\
+Zużycie paliwa: 8,9l/100km\\
+Bezpieczeństwo: 4/5\\
+Rozmiar bagażnika: 460l\\
+Ilość pasażerów: 5
+
+Samochód 2:\\
+Cena samochodu: 39 900zł\\
+Zużycie paliwa: 11,2l/100km\\
+Bezpieczeństwo: 3,5/5\\
+Rozmiar bagażnika: 415l\\
+Ilość pasażerów: 5
+
+Samochód 3:\\
+Cena samochodu: 87 394zł\\
+Zużycie paliwa: 5,8l/100km\\
+Bezpieczeństwo: 4,5/5\\
+Rozmiar bagażnika: 430l\\
+Ilość pasażerów: 4
+
+Proponowany podział na kryteria i podkryteria dla metody AHP:\\
+Kryteria: cena, bezpieczeństwo, pojemność.\\
+Podkryteria ceny: cena samochodu, zużycie paliwa.\\
+Podkryteria pojemności: rozmiar bagażnika, ilość pasażerów. 
+
+\end{zad}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
